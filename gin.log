@@ -1,0 +1,4 @@
+127.0.0.1 - [Tue, 30 Apr 2019 14:21:04 CST] "GET /user/zhaohe HTTP/1.1 404 201ns "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" "
+[GIN] 2019/04/30 - 14:21:04 | 404 |     365.602µs |       127.0.0.1 | GET      /user/zhaohe
+127.0.0.1 - [Tue, 30 Apr 2019 14:21:28 CST] "GET /v1/user/zhaohe HTTP/1.1 200 107.136µs "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" "
+[GIN] 2019/04/30 - 14:21:28 | 200 |     436.545µs |       127.0.0.1 | GET      /v1/user/zhaohe
