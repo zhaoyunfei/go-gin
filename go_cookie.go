@@ -3,7 +3,15 @@ package main
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"gorm"
 )
+
+
+type Product struct {
+	gorm.Model
+	Code string
+	Price uint
+}
 
 func main() {
 	router := gin.Default()
